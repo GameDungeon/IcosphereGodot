@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/PlanetManager.cs" type="Script" id=1]
+[ext_resource path="res://Scripts/OrbitCamera.cs" type="Script" id=2]
+
+[node name="Space" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.89603, 2.26437, 0 )
+omni_range = 4.78141
+
+[node name="Cam" type="Spatial" parent="."]
+script = ExtResource( 2 )
+
+[node name="Camera" type="Camera" parent="Cam"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )

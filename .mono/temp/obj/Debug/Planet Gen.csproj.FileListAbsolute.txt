@@ -1,0 +1,9 @@
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\bin\Debug\Planet Gen.dll
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\bin\Debug\Planet Gen.pdb
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.AssemblyInfoInputs.cache
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.AssemblyInfo.cs
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.dll
+C:\Users\ethan\Desktop\Thrive\PlanetGen\.mono\temp\obj\Debug\Planet Gen.pdb
