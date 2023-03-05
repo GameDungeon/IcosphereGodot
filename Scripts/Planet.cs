@@ -19,7 +19,7 @@ public class Planet : MeshInstance
     Dictionary<int, int> abstractIcosphereToUvMap;
 
     int observerRecursiveDepth = 4;
-    int AdjacencySearchRadius = 30;
+    int AdjacencySearchRadius = 50;
 
     // TODO: Find a good way to make this dynamic
     private float r5Threshold  = 0.5336f;
@@ -29,9 +29,9 @@ public class Planet : MeshInstance
     private float r9Threshold  = 0.0313f;
     private float r10Threshold = 0.0117f;
 
-    private int r4AdjacencySearchRadius = 30;
-    private int r5AdjacencySearchRadius = 20;
-    private int r6AdjacencySearchRadius = 25;
+    private int r4AdjacencySearchRadius = 50;
+    private int r5AdjacencySearchRadius = 30;
+    private int r6AdjacencySearchRadius = 30;
     private int r7AdjacencySearchRadius = 30;
     private int r8AdjacencySearchRadius = 30;
     private int r9AdjacencySearchRadius = 30;
@@ -154,7 +154,7 @@ public class Planet : MeshInstance
             meshToAbstractIcosphereMap.Add(currentMeshTriange, abstractTriangle.uniqueIndex);
 
             vertex_colors.Add(abstractTriangle.vcolor);
-            vertex_colors.Add(new Color(0,0,0));
+            vertex_colors.Add(abstractTriangle.vcolor);
             vertex_colors.Add(abstractTriangle.vcolor);
 
             currentMeshTriange++;
